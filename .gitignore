@@ -1,0 +1,7 @@
+**/node_modules/
+**/build/
+**/.idea/
+**/.gradle/
+**/*.iml
+data/*.csv
+loaders/neo4j/out/*.csv

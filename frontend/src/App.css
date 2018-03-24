@@ -1,0 +1,11 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 8px;
+}

@@ -1,0 +1,35 @@
+.result {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.map-container {
+  width: 60%;
+  height: 100%;
+}
+
+.result-container {
+  width: 40%;
+}
+
+.search-field {
+  width: 60%;
+  max-width: 600px;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.slider-container > h3 {
+  margin-right: 16px;
+}
+
+.ant-slider {
+  flex-grow: 1;
+}

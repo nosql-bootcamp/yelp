@@ -1,0 +1,22 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility='1.8'
+
+mainClassName = "com.serli.yelp.Application"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'net.code-story:http:2.105'
+    compile 'org.neo4j.driver:neo4j-java-driver:1.1.0'
+    compile 'redis.clients:jedis:2.9.0'
+    compile 'org.mongodb:mongodb-driver:3.4.1'
+    compile 'org.elasticsearch.client:elasticsearch-rest-high-level-client:6.2.2'
+    compile 'redis.clients:jedis:2.9.0'
+    compile 'org.apache.logging.log4j:log4j-core:2.10.0'
+
+}

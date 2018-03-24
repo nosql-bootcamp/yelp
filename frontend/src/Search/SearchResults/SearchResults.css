@@ -1,0 +1,21 @@
+.SearchResults .city {
+  font-style: italic;
+}
+
+.result-cell {
+  text-align: left;
+}
+
+.result-container .ant-list-item-action {
+  margin-left: 16px;
+}
+
+.result-container .ant-list-item {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.result-container .highlighted {
+  cursor: pointer;
+  background-color: #ffe0b2;
+}
